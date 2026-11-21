@@ -2,6 +2,15 @@
 
 **Cravely** is a full-stack food-ordering application inspired by popular food-delivery platforms. It combines a Java/Spring Boot REST API with a React frontend and supports restaurant discovery, menu browsing, customer carts, order placement, and Razorpay test payments.
 
+## 🎬 Application Demo
+
+Experience Cravely — a full-stack food delivery application[cravely-demo.mov](Cravely/cravely-demo.mov)
+built with Java, Spring Boot, React, MySQL, and Razorpay.
+
+## 🎬 Application Demo
+
+[▶️ Watch Cravely Demo](assets/cravely-demo.mov)
+
 > **Project status:** Local customer MVP implemented and tested manually. Cloud deployment is planned. This README documents the features discussed and should be checked against the repository before publishing.
 
 ## Features
@@ -244,15 +253,4 @@ npm run build
 
 Before deployment, manually test: login, restaurant browsing, adding/removing cart items, checkout, successful and failed test payments, My Orders, and unauthorized API access.
 
-## Deployment plan
-
-The intended low-cost deployment is:
-
-- **Frontend:** Cloudflare Pages (Vite build command `npm run build`; output directory `dist`)
-- **Backend:** Render or another Java/Docker-capable service
-- **Database:** Managed MySQL-compatible service; confirm free-tier availability and connection requirements
-- **Images:** Existing S3 integration
-- **Payments:** Razorpay test mode until production onboarding and security review are complete
-
-Deployment is **not yet confirmed complete**. Before publishing, configure production database credentials, frontend API base URL, CORS allowed origins, JWT signing secret, Razorpay keys, AWS access permissions, HTTPS, and appropriate Spring Boot memory settings.
 
