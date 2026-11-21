@@ -256,22 +256,3 @@ The intended low-cost deployment is:
 
 Deployment is **not yet confirmed complete**. Before publishing, configure production database credentials, frontend API base URL, CORS allowed origins, JWT signing secret, Razorpay keys, AWS access permissions, HTTPS, and appropriate Spring Boot memory settings.
 
-## Security notes
-
-- Never commit `.env`, credentials, private keys, or database dumps.
-- Verify that sensitive files are **untracked**, not merely listed in `.gitignore`.
-- If secrets were committed or pushed previously, rotate them and remove them from Git history as appropriate.
-- Use separate development and production secrets.
-- Verify Razorpay signatures server-side; do not trust the browser's success callback alone.
-- Enforce customer ownership checks and role-based authorization on backend endpoints.
-- Do not publish example customer/admin credentials in a public README.
-
-## Current status and next steps
-
-**Implemented locally:** customer authentication, restaurant/menu browsing, cart quantity controls, checkout, Razorpay test payment, and My Orders.
-
-**Next:** final regression testing, payment failure/retry testing, security review, responsive checks, and deployment.
-
-## License
-
-No license has been specified. Add a `LICENSE` file if you want to define permitted reuse.
