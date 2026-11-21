@@ -7,6 +7,12 @@
   <source src="assets/cravely-demo.mp4" type="video/mp4">
 </video>
 
+## 🎬 Cravely Application Demo
+
+![Cravely Preview](assets/cravely-preview.gif)
+
+[▶️ Watch Full Demo](assets/cravely-demo.mp4)
+
 > **Project status:** Local customer MVP implemented and tested manually. Cloud deployment is planned. This README documents the features discussed and should be checked against the repository before publishing.
 
 ## Features
