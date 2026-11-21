@@ -12,6 +12,30 @@ built with Spring Boot, React, MySQL, and Razorpay.
 [▶️ Watch Full Demo](assets/cravely-demo.mp4)
 
 
+## 📸 Application Screenshots
+
+Explore the Cravely food delivery application.
+
+| Screenshot 1 | Screenshot 2 |
+|:---:|:---:|
+| ![Screenshot 1](assets/images/screenshot-1.png) | ![Screenshot 2](assets/images/screenshot-2.png) |
+
+| Screenshot 3 | Screenshot 4 |
+|:---:|:---:|
+| ![Screenshot 3](assets/images/screenshot-3.png) | ![Screenshot 4](assets/images/screenshot-4.png) |
+
+| Screenshot 5 | Screenshot 6 |
+|:---:|:---:|
+| ![Screenshot 5](assets/images/screenshot-5.png) | ![Screenshot 6](assets/images/screenshot-6.png) |
+
+| Screenshot 7 | Screenshot 8 |
+|:---:|:---:|
+| ![Screenshot 7](assets/images/screenshot-7.png) | ![Screenshot 8](assets/images/screenshot-8.png) |
+
+![Screenshot 9](assets/images/screenshot-9.png)
+
+
+
 > **Project status:** Local customer MVP implemented and tested manually. Cloud deployment is planned. This README documents the features discussed and should be checked against the repository before publishing.
 
 ## Features
