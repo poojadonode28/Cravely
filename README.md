@@ -2,14 +2,6 @@
 
 **Cravely** is a full-stack food-ordering application inspired by popular food-delivery platforms. It combines a Java/Spring Boot REST API with a React frontend and supports restaurant discovery, menu browsing, customer carts, order placement, and Razorpay test payments.
 
-## 🎬 Application Demo
-
-Experience Cravely — a full-stack food delivery application[cravely-demo.mov](Cravely/cravely-demo.mov)
-built with Java, Spring Boot, React, MySQL, and Razorpay.
-
-## 🎬 Application Demo
-
-[▶️ Watch Cravely Demo](assets/cravely-demo.mov)
 
 > **Project status:** Local customer MVP implemented and tested manually. Cloud deployment is planned. This README documents the features discussed and should be checked against the repository before publishing.
 
